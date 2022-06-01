@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto&display=swap');
+body 
+{
+    background: linear-gradient(43deg, #98aaff 0%,
+    #fdadf8 46%, #ffdea0 100%);
+}
+h1{
+    color: rgb(0, 0, 0);
+    /*font-size: 20px;
+    font-family: 'Roboto', sans-serif;*/
+    font: bold 25px 'Roboto', sans-serif;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-size: 16px; font-weight: normal ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+}
+.avatar {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 025);
+    margin-bottom: 50px
+
+}
+.info {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font: italic 17px 'Quicksand', sans-serif;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.bg-yellow {
+    display: flex-box;
+    background: linear-gradient(43deg,#c5b974 0%,
+    #FFCC70 46%, #ffdea0 100%); 
+}
+.bg-green {
+    background: linear-gradient(43deg,#a9fd88 0%,
+    #4efcc2 46%, #1cff07 100%);
+}
+    
+.container {
+    margin: auto;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+a:hover {
+        text-decoration: underline ;
+}
+a:active {
+    color:rgb(226, 0, 0)
+}
+a:visited {
+    color:rgb(9, 255, 0)
+}
+.social-icons {
+    padding: 0;
+    margin: auto;
+    list-style: none;
+
+}
+.social-icons li {
+    display: flexbox ;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+}
+.social-icons i {
+    color: #fff;
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    transition: all 265ms ease-out;
+}
+.social-icons a {
+    display:inline-block;
+}
+.social-icons a::before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content:" ";
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: inline-block;
+    background: linear-gradient(43deg, #4158D0 0%,
+    #C850C0 46%, #FFCC70 100%) ;
+    transition: all 265ms ease-out;
+    }
+    .social-icons a:hover::before {
+        transform: scale(0);
+        transition: all 265ms ease-in;
+    }
+    .social-icons a:hover i {
+        transform: scale(2);
+        -ms-transform: scale(2);
+        -webkit-transform: scale(2);
+        color: #fff;
+        background: linear-gradient(43deg, #4158D0 0%
+        #C850C0 46%, #FFCC70 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 265ms ease-in;
+    }
+    
+    
